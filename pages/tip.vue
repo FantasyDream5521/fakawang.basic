@@ -9,7 +9,7 @@ const code = useRoute().query.code || '0'
       <p class="font-semibold flex justify-cente text-xl sm:text-3xl"
         :class="[code == '10' ? 'text-blue-600' : 'text-red-500']">
         {{ $t(msgI18n) }}
-      </p>
+      </p>1212
     </div>
   </NuxtLayout>
 </template>
